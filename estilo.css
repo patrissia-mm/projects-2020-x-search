@@ -1,0 +1,174 @@
+body, input, button{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #202124;
+    text-align: center;
+    
+}
+
+
+a{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #202124;
+    text-decoration: none; 
+}
+
+
+
+a:hover{
+   text-decoration: underline; 
+}
+
+#cabecera{
+    width: 100%;
+	height: 80px;
+	border: none;
+    position: relative;
+    text-align: right;
+}
+
+#logo{
+    align-content: center;
+    position:relative;
+
+}
+
+#formulario{
+    position: relative;
+    top: 50px;
+}
+
+input[type=text]{
+    display: block;
+    text-align: left;
+
+    
+}
+
+.rounded{
+    border: 1px solid #cfcfcf;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px 0;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.rounded:hover{
+  box-shadow: 0 0 4px rgba(73, 73, 73, 0.5);  
+}
+
+.rounded:focus {
+    outline: none;
+}
+
+.button{
+    padding: 12px 20px 12px 20px;
+    border:solid 1px;
+    border-color: transparent;
+    background-color: whitesmoke;
+    margin: 0 5px;
+}
+
+.button:hover{
+    border: 1px solid;
+    border-color: rgb(200, 199, 199);
+}
+
+h1{
+    color: #d93025;
+    font-size: 20px;
+    margin: 40px 0px;
+    text-align: left;
+}
+
+#formAvanzada{
+   position: relative;
+   margin: 30px; 0;
+}
+
+.clasic{
+    border: 0.5px solid #464545;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    padding: 5px 0px;
+    margin:5px;
+}
+
+.clasic:focus{
+    outline: 0.5px solid rgb(90, 150, 218);
+    
+}
+
+#detalle{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+table{
+    width: 100%;
+    margin: 30px 0;
+}
+
+tr, td{
+    border: none;
+    text-align: left;
+    left: 0px;
+    padding: 5px;
+}
+
+.col-1{
+    width: 15%;
+}
+
+.col-2{
+    width: 40%;
+}
+
+
+.col-3{
+    font-size: 10px;
+    width: 30%;
+}
+
+.col-0{
+    text-align: right;
+}
+
+#boton-adv{
+    background-color: rgb(90, 150, 218);
+    color: white;
+    font-size: 10px;
+    padding: 7px;
+    border: none;
+}
+
+#boton-adv:hover{
+    background-color: rgb(73, 139, 214);;
+}
+
+.linea {
+    border-top: 0.5px solid rgb(197, 195, 195);
+    height: 2px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+
+
